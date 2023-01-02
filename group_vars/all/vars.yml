@@ -1,0 +1,31 @@
+packages:
+  [
+    ack,
+    bpython,
+    btop,
+    cowsay,
+    exa,
+    figlet,
+    fortune,
+    fzf,
+    git,
+    imagemagick,
+    jq,
+    lazygit,
+    neofetch,
+    nginx,
+    pandoc,
+    redis,
+    tldr,
+    tmux,
+    watch,
+    watchman,
+    ctop,
+    rlwrap,
+    just
+  ]
+
+casks: 
+  [
+    slack   
+  ]

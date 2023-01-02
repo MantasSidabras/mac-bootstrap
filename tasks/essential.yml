@@ -1,0 +1,9 @@
+- name: Install essential packages
+  package:
+    name: "{{ packages }}"
+    state: latest
+    # update_homebrew: yes
+
+- name: Update tldr
+  shell:
+    tldr -u
