@@ -21,8 +21,10 @@ packages:
     watch,
     watchman,
     ctop,
-    rlwrap,
-    just
+    rlwrap, # allows to use readline commands in repl that doesn't support readline 
+    just,   # alternative to make and Makefiles
+    starship,  # fancy prompt
+    ncdu    # disk storage managment util
   ]
 
 casks: 
