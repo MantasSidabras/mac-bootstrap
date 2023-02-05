@@ -24,10 +24,12 @@ packages:
     rlwrap, # allows to use readline commands in repl that doesn't support readline 
     just,   # alternative to make and Makefiles
     starship,  # fancy prompt
-    ncdu    # disk storage managment util
+    ncdu,    # disk storage managment util
+    zoxide  # smart cd
   ]
 
 casks: 
   [
-    slack   
+    slack,
+    amethyst
   ]
