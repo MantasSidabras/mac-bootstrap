@@ -1,26 +1,27 @@
 packages:
   [
-    ack,
-    bpython,
-    btop,
-    cowsay,
-    exa,
-    figlet,
-    fortune,
-    fzf,
-    git,
-    imagemagick,
-    jq,
-    lazygit,
-    neofetch,
-    nginx,
-    pandoc,
-    redis,
-    tldr,
-    tmux,
-    watch,
-    watchman,
-    ctop,
+    ack,  # comes as default with linux
+    bpython, # interactive python shell
+    btop, # overkill system monitor TUI
+    ctop, # docker container monitor
+    cowsay, # echo, but with a cow
+    exa,  # better ls
+    figlet, # fancy ascii text
+    fortune,  # random quote
+    fzf,  # fuzzy finder in shell
+    git,  # git gud
+    # imagemagick,  # bulk image manipulation
+    jq, # parse json
+    lazygit,  # TUI git tool
+    neofetch, # fancy summary of the system
+    nginx,  # webserver/reverse proxy
+    pandoc, # converts any document format to any other document format
+    redis,  # in memory db
+    tldr, # examples how to use cli tools
+    tmux, # terminal multiplexor
+    watch,  # comes as default with linux
+    entr,   # do something when some files changes
+    watchman, # file watcher/ simpler than entr 
     rlwrap, # allows to use readline commands in repl that doesn't support readline 
     just,   # alternative to make and Makefiles
     starship,  # fancy prompt
@@ -30,6 +31,10 @@ packages:
 
 casks: 
   [
+    # tiles, // manage window snaps
+    amethyst,
+    notunes,
+    obsidian,
     slack,
-    amethyst
+    hiddenbar
   ]
