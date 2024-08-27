@@ -5,7 +5,6 @@ packages:
     btop, # overkill system monitor TUI
     ctop, # docker container monitor
     cowsay, # echo, but with a cow
-    exa,  # better ls
     figlet, # fancy ascii text
     fortune,  # random quote
     fzf,  # fuzzy finder in shell
@@ -14,6 +13,7 @@ packages:
     jq, # parse json
     lazygit,  # TUI git tool
     neofetch, # fancy summary of the system
+    neovim, # text editor/PDE
     nginx,  # webserver/reverse proxy
     pandoc, # converts any document format to any other document format
     redis,  # in memory db
@@ -26,13 +26,20 @@ packages:
     just,   # alternative to make and Makefiles
     starship,  # fancy prompt
     ncdu,    # disk storage managment util
-    zoxide  # smart cd
+    zoxide,  # smart cd
+    colima,  # docker runner
+    choose-gui, # list picker/fuzzy finder
+    ripgrep, # faster grep
+    fd, # more intuitive find command
+    hugo, # static site generator
+    cloudflared, # expose public url to local http server via tunel
+    yazi
   ]
 
 casks: 
   [
     # tiles, // manage window snaps
-    amethyst,
+    # amethyst,
     notunes,
     obsidian,
     slack,
