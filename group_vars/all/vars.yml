@@ -1,47 +1,47 @@
-packages:
-  [
-    ack,  # comes as default with linux
+packages: [
+    ack, # comes as default with linux
     bpython, # interactive python shell
     btop, # overkill system monitor TUI
     ctop, # docker container monitor
     cowsay, # echo, but with a cow
     figlet, # fancy ascii text
-    fortune,  # random quote
-    fzf,  # fuzzy finder in shell
-    git,  # git gud
+    fortune, # random quote
+    fzf, # fuzzy finder in shell
+    git, # git gud
     # imagemagick,  # bulk image manipulation
     jq, # parse json
-    lazygit,  # TUI git tool
+    lazygit, # TUI git tool
     neofetch, # fancy summary of the system
     neovim, # text editor/PDE
-    nginx,  # webserver/reverse proxy
-    pandoc, # converts any document format to any other document format
-    redis,  # in memory db
+    # nginx,  # webserver/reverse proxy
+    # pandoc, # converts any document format to any other document format
+    # redis,  # in memory db
     tldr, # examples how to use cli tools
-    tmux, # terminal multiplexor
-    watch,  # comes as default with linux
-    entr,   # do something when some files changes
-    watchman, # file watcher/ simpler than entr 
-    rlwrap, # allows to use readline commands in repl that doesn't support readline 
-    just,   # alternative to make and Makefiles
-    starship,  # fancy prompt
-    ncdu,    # disk storage managment util
-    zoxide,  # smart cd
-    colima,  # docker runner
+    # tmux, # terminal multiplexor
+    watch, # comes as default with linux
+    entr, # do something when some files changes
+    watchman, # file watcher/ simpler than entr
+    # rlwrap, # allows to use readline commands in repl that doesn't support readline
+    just, # alternative to make and Makefiles
+    # starship,  # fancy prompt
+    ncdu, # disk storage managment util
+    zoxide, # smart cd
+    # colima,  # docker runner
     choose-gui, # list picker/fuzzy finder
     ripgrep, # faster grep
     fd, # more intuitive find command
-    hugo, # static site generator
-    cloudflared, # expose public url to local http server via tunel
-    yazi
+    # hugo, # static site generator
+    # cloudflared, # expose public url to local http server via tunel
+    yazi,
   ]
-
-casks: 
-  [
-    # tiles, // manage window snaps
-    # amethyst,
+casks: [
     notunes,
     obsidian,
-    slack,
-    hiddenbar
+    # slack,
+    hiddenbar,
+    bitwarden,
+    brave-browser,
+    mos,
+    tiles,
+    zed,
   ]
